@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,6 +20,9 @@ and open the template in the editor.
         <script src="js/init.js"></script>
     </head>
     <body class="grey lighten-4">
+        
+        <!-- nav nav nav nav nav nav nav nav nav navn aaanav -->
+        
         <div class="navbar-fixed">
             <nav class=" blue darken-4">
                 <div class="nav-wrapper container">
@@ -41,54 +47,10 @@ and open the template in the editor.
             </nav>
         </div>
         
-        
-         <div class="parallax-container">
-            <div class="parallax"><img src="images/fondoindex.jpg"></div>
-         </div>
-       
-        
-  <div class="container scroll">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-        
-        
-        
-        
-        
-       
-        
+    <!-- NAV ------------------------------------------------ NAV -->  
+    
+    
+    <!------FOOOTER -------------FOOTER------------------------FOOTER-->
         
         
           <footer class="page-footer blue darken-2">
@@ -116,18 +78,8 @@ and open the template in the editor.
             </div>
           </div>
         </footer>
-        
-        
-        <script>
-            var options = [
-            {selector: '.scroll', offset: 200, callback: customCallbackFunc } },
-            {selector: '.scrollfire', offset: 200, callback: function() {
-                customCallbackFunc();
-            } },
-            ];
-            Materialize.scrollFire(options);
-  
-        </script>
+     <!-- Adios Footer ------------------- -->
+       
     </body>
 </html>
 
