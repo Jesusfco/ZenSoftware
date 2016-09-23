@@ -7,19 +7,34 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <h1>Hola mundo</h1>
+        <title>Zen Software</title>
         
-        <h2>Hola mundo 2 xD</h2>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
-        <?php
-        // put your code here
-        ?>
+        <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+        <script src="materialize/js/materialize.min.js"></script>
+        <script src="js/init.js"></script>
+    </head>
+    <body class="grey lighten-4">
+        <div class="navbar-fixed">
+            <nav class="light-green darken-4">
+                <div class="nav-wrapper container">
+                    <a href="#!" class="brand-logo"><img src="images/logo/logo.png" width="240px" style="margin-top: 5px;"></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#!" class="waves-effect waves-light">INICIO</a></li>
+                        <li><a href="#!" class="waves-effect waves-light">QUIENES SOMOS</a></li>
+                        <li><a href="#!" class="waves-effect waves-light">PROMOCIONES</a></li>
+                        <li><a href="#!" class="waves-effect waves-light">GALERIA</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="#!">INICIO</a></li>
+                        <li><a href="#!">QUIENES SOMOS</a></li>
+                        <li><a href="#!">PROMOCIONES</a></li>
+                        <li><a href="#!">GALERIA</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </body>
 </html>
