@@ -11,6 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <h1>Hola mundo</h1>
+        
+        <h2>Hola mundo 2 xD</h2>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
         <?php
         // put your code here
         ?>
